@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5A406"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/team"
+        android:layout_width="219dp"
+        android:layout_height="76dp"
+        android:layout_below="@id/team"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="96dp"
+        android:backgroundTint="@android:color/black"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Equipes"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView4" />
+
+    <Button
+        android:id="@+id/solo"
+        android:layout_width="219dp"
+        android:layout_height="76dp"
+        android:layout_below="@id/team"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/black"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Solo"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="66dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Mode de Jeu"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/solo"
+        app:layout_constraintBottom_toTopOf="@id/solo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/team"
+        app:layout_constraintBottom_toTopOf="@id/team"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/solo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
