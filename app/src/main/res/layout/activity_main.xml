@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/titre"
-        android:layout_width="224dp"
-        android:layout_height="63dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="93dp"
         android:layout_marginTop="108dp"
         android:layout_marginEnd="94dp"
