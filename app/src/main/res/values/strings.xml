@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CapTorché</string>
+    <string name="mode_de_jeu">Mode de Jeu</string>
+    <string name="solo">Solo</string>
+    <string name="equipes">Equipes</string>
 </resources>
