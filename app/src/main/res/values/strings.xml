@@ -3,4 +3,25 @@
     <string name="mode_de_jeu">Mode de Jeu</string>
     <string name="solo">Solo</string>
     <string name="equipes">Equipes</string>
+    <string name="cap_torch">Cap\'Torché</string>
+    <string name="commencer">Commencer</string>
+    <string name="todo">TODO</string>
+    <string name="joueurs">Joueurs</string>
+    <string name="joueur_1">Joueur 1</string>
+    <string name="joueur_4">Joueur 4</string>
+    <string name="joueur_5">Joueur 5</string>
+    <string name="joueur_2">Joueur 2</string>
+    <string name="joueur_6">Joueur 6</string>
+    <string name="joueur_3">Joueur 3</string>
+    <string name="joueur_7">Joueur 7</string>
+    <string name="joueur_8">Joueur 8</string>
+    <string name="quipe_3">Équipe 3</string>
+    <string name="quipe_7">Équipe 7</string>
+    <string name="quipe_2">Équipe 2</string>
+    <string name="quipe_5">Équipe 5</string>
+    <string name="quipe_1">Équipe 1</string>
+    <string name="quipe_4">Équipe 4</string>
+    <string name="quipe_6">Équipe 6</string>
+    <string name="quipe_8">Équipe 8</string>
+    <string name="quipes">Équipes</string>
 </resources>

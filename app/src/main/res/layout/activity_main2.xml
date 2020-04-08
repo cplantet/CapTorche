@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:fontFamily="@font/abril_fatface"
-        android:text="Mode de Jeu"
+        android:text="@string/mode_de_jeu"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="50sp"
@@ -32,7 +32,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/solo"
@@ -41,11 +42,10 @@
         android:layout_below="@id/team"
         android:backgroundTint="@android:color/black"
         android:fontFamily="@font/abril_fatface"
-        android:text="Solo"
+        android:text="@string/solo"
         android:textColor="#FAF8F8"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/todo"
         android:src="@drawable/team"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -68,7 +68,7 @@
         android:layout_below="@id/team"
         android:backgroundTint="@android:color/black"
         android:fontFamily="@font/abril_fatface"
-        android:text="Equipes"
+        android:text="@string/equipes"
         android:textColor="#FAF8F8"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"

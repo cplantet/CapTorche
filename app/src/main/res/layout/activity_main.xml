@@ -5,22 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C5A406"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/titre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="93dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="94dp"
+        android:layout_marginTop="100dp"
         android:layout_marginBottom="44dp"
         android:fontFamily="@font/abril_fatface"
-        android:text="Cap'Torché"
+        android:text="@string/cap_torch"
         android:textColor="#000000"
         android:textSize="42sp"
         app:layout_constraintBottom_toTopOf="@+id/logo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,17 +28,16 @@
         android:layout_width="219dp"
         android:layout_height="76dp"
         android:layout_below="@id/start"
-        android:layout_marginStart="96dp"
         android:layout_marginTop="41dp"
-        android:layout_marginEnd="96dp"
-        android:textSize="20sp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="90dp"
         android:backgroundTint="@android:color/black"
         android:fontFamily="@font/abril_fatface"
-        android:text="Commencer"
+        android:text="@string/commencer"
         android:textColor="#FAF8F8"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
@@ -47,13 +45,13 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
         android:layout_marginTop="44dp"
-        android:layout_marginEnd="56dp"
         android:layout_marginBottom="56dp"
+        android:contentDescription="@string/todo"
         android:src="@drawable/vrailogo"
         app:layout_constraintBottom_toTopOf="@+id/start"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titre" />
 
