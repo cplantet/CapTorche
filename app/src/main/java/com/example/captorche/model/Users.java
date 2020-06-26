@@ -1,15 +1,17 @@
 package com.example.captorche.model;
 
+import java.util.ArrayList;
+
 public class Users {
     private ArrayList<User> list;
 
     public Users(){
         this.list = new ArrayList<User>();
-    }
+}
 
-    public void AddUser(int String){
+    public void AddUser(String name){
         int nb = this.list.size();
-        this.list.add(new User(String, nb+1));
+        this.list.add(new User(name, nb+1));
     }
 
 }

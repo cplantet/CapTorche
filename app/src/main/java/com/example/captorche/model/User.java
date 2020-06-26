@@ -9,6 +9,6 @@ public class User {
         this.id = id;
     }
 
-    public getUserById(int id){
+    public void getUserById(int id){
     }
 }
