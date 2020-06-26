@@ -23,27 +23,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
-
-        tools:layout_editor_absoluteX="16dp">
+        android:id="@+id/scrollView2"
+        android:layout_width="272dp"
+        android:layout_height="323dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
-            android:orientation="vertical"><![CDATA[>
-
-            ]]>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/J1Layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="@+id/J1"
-                tools:layout_editor_absoluteX="5dp" />
+            android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/J1"
@@ -61,7 +55,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/J2Layout"
+                android:id="@+id/J1Layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="@+id/J1"
@@ -83,7 +77,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/J1" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/J3Layout"
+                android:id="@+id/J2Layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="@+id/J1"
@@ -105,7 +99,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/J2" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/J4Layout"
+                android:id="@+id/J3Layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="@+id/J1"
@@ -127,7 +121,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/J3" />
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/J5Layout"
+                android:id="@+id/J4Layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="@+id/J1"
@@ -147,6 +141,13 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/J4" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/J5Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@+id/J1"
+                tools:layout_editor_absoluteX="5dp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/J6"
@@ -213,8 +214,25 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="@+id/J1"
                 tools:layout_editor_absoluteX="16dp" />
+
         </LinearLayout>
     </ScrollView>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/design_default_color_on_secondary"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
