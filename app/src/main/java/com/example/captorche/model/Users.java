@@ -1,5 +1,7 @@
 package com.example.captorche.model;
 
+import java.util.ArrayList;
+
 public class Users {
     private ArrayList<User> list;
 
