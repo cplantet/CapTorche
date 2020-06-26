@@ -16,8 +16,8 @@ public class RulesActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rules);
-        next = (View) findViewById(R.id.next);
-        final TextView rules = (TextView) findViewById (R.id.rules);
+        next = findViewById(R.id.next);
+        final TextView rules = findViewById (R.id.rules);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 rules.setText("ssgdsg");

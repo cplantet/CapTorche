@@ -24,4 +24,5 @@
     <string name="quipe_6">Équipe 6</string>
     <string name="quipe_8">Équipe 8</string>
     <string name="quipes">Équipes</string>
+    <string name="consigne">Consigne du jeu :</string>
 </resources>

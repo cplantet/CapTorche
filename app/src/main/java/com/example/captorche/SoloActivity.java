@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class SoloActivity extends AppCompatActivity {
 
-    ArrayList<EditText> joueurText = new ArrayList<EditText>();
+    ArrayList<EditText> joueurText = new ArrayList<>();
     Users players;
     private Button start;
 
@@ -46,7 +46,7 @@ public class SoloActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_solo);
 
-        start = (Button) findViewById(R.id.buttonStart);
+        start = findViewById(R.id.buttonStart);
         start.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent myIntent = new Intent(view.getContext(), RulesActivity.class);

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#C5A406"
+    android:screenOrientation="landscape"
     tools:context=".MainActivity">
 
 
@@ -12,7 +13,7 @@
         android:id="@+id/rules"
         android:layout_width="544dp"
         android:layout_height="249dp"
-        android:text="Consigne du jeu :"
+        android:text="@string/consigne"
         android:textAlignment="center"
         android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="parent"
