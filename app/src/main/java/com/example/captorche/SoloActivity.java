@@ -5,7 +5,9 @@ import com.example.captorche.model.*;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -15,6 +17,7 @@ public class SoloActivity extends AppCompatActivity {
 
     ArrayList<EditText> joueurText = new ArrayList<EditText>();
     Users players;
+    private Button start;
 
     public SoloActivity(){
         /*
@@ -42,6 +45,15 @@ public class SoloActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_solo);
+
+        start = (Button) findViewById(R.id.buttonStart);
+        start.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), RulesActivity.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
     }
 
 
